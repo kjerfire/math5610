@@ -1,6 +1,11 @@
 ## Math 5610 Class Materials
 
-You can use the [editor on GitHub](https://github.com/kjerfire/math5610/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+'Description of Page'
+
+
+[Homework Links](https://kjerfire.github.io/math5610/)
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
