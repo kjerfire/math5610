@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Math 5610 Class Materials
 
 You can use the [editor on GitHub](https://github.com/kjerfire/math5610/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
