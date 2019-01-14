@@ -3,7 +3,7 @@
 'Description of Page'
 
 
-[Homework Links](https://kjerfire.github.io/math5610/)
+[Homework 1](https://kjerfire.github.io/math5610/)
 
 
 
