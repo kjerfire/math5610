@@ -2,12 +2,11 @@
 
 'Description of Page'
 
-
+### Table of Contents
 [Homework 1](https://kjerfire.github.io/math5610/)
 
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
