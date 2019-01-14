@@ -3,7 +3,7 @@
 'Description of Page'
 
 ### Table of Contents
-[Homework 1](https://kjerfire.github.io/math5610/homework1)
+[Homework 1](https://kjerfire.github.io/math5610/math5610/Homework1/)
 
 
 
