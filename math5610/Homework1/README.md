@@ -164,5 +164,5 @@ Write a routine that will generate a random matrix of a given size. That is, inp
 Search the Internet for sites that discuss linear algebra packages for solving linear algebra problems. Find a couple of sites that most closely line up with what you think we will be doing in the class. Reference the sites in a brief discussion.
 
 
-[Return](https://kjerfire.github.io/math5610/)
+[Return to Homepage](https://kjerfire.github.io/math5610/)
 [Back to Top](#homework-1)
