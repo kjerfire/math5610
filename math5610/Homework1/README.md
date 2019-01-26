@@ -30,7 +30,7 @@ Create a repository on [Github](https://www.github.com) and create a repositry f
 
 Note that your username will be set when you create your Github account. It is important for appropriate grading to name the repository as above.
 
-- GitHub respository: [jacksontreid/math5610](https://github.com/jacksontreid/math5610)
+- GitHub respository: [kjerfire/math5610](https://github.com/kjerfire/math5610)
 
 ## Task 3
 
@@ -40,7 +40,7 @@ Create a repository for Github Pages. You can do this by using the documentation
 
 The information on the web page given above will show you how to build web pages from Jeykll css files. This repository allows access to projects as you create them in your repository. I will use the link created in this repository to grade your Software Manual.
 
-- GitHub Pages: [jacksontreid.github.io](https://jacksontreid.github.io)
+- GitHub Pages: [kjerfire.github.io](https://kjerfire.github.io)
 
 ## Task 4
 
@@ -48,14 +48,14 @@ Create a folder in your "math5610" repository for your for your software manual.
 
 Note: The software manual must use the template above to be graded!. The theme can be changed to one you like more, but the format should be consistent.
 
-- Software Manual [Directory](https://github.com/jacksontreid/math5610/tree/master/Software_Manual).
+- Software Manual [Directory](https://github.com/kjerfire/math5610/tree/master/manual).
 
 ## Task 5
 
 Create a table of contents for the homework tasks using markdown. We will go through the basics of markdown and how to set up a table of contents for your work. Also build a markdown file that will serve as a table of contents for the entries in the software manual.
 
 - Table of Contents for [Homework 1](Homework_1.md).
-- Table of Contents for [Software Manual](Software_Manual/Table_of_Contents.md).
+- Table of Contents for [Software Manual](manualanual/Table_of_Contents.md).
 
 ## Task 6
 
@@ -93,7 +93,7 @@ To complete this problem, you will need to go to the Engineering Computer Lab on
    ​      ```% ar rcv mylib *.o```
    ​      ```% ranlib mylib.a```
 
-- Shared Library: [math5610lib](https://github.com/jacksontreid/math5610)
+- Shared Library: [math5610lib](https://github.com/kjerfire/math5610)
 
 ## Task 7
 
