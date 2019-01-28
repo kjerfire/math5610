@@ -1,7 +1,7 @@
-## Homework 1
+## Software Manual
 
 - [maceps](maceps.md)
-- [Task 2](#task-2)
+- [smaceps](smaceps.md)
 - [Task 3](#task-3)
 - [Task 4](#task-4)
 - [Task 5](#task-5)
@@ -10,3 +10,6 @@
 - [Task 8](#task-8)
 - [Task 9](#task-9)
 - [Task 10](#task-10)
+
+
+[Return to Home](https://kjerfire.github.io/math5610/)
