@@ -10,7 +10,7 @@ def maceps():
         seps /= 2
         appone = one + seps
 
-    print("Double float mantissa: " + str(ipow))
+    print(str(ipow))
     print("Double float mantissa: " + str(seps))
 
 maceps()
