@@ -1,9 +1,12 @@
 ## Math 5610 Class Materials
 
-'Description of Page'
+### Software Manual
+[Manual](manual)
 
 ### Table of Contents
 [Homework 1](H1.md)
+
+
 
 
 
