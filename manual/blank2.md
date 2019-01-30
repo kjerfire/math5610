@@ -1,50 +1,43 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual Template File
-This is a template file for building an entry in the student software manual project. You should use the formatting below to
-define an entry in your software manual.
+# Random Matrix Generator
 
-**Routine Name:**           smaceps
+**Routine Name:**           randMat
 
-**Author:** Joe Koebbe
+**Author:** Nathanael Barney
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+**Language:** Python. The code can be run in the Python language.
 
-For example,
 
-    gfortran smaceps.f
+**Description/Purpose:** This routine will generate a two dimensional list with random values of the dimensions input by a user.
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+**Input:** The inputs required are two integer values. The first parameter indicating m, or thr number of rows, and the second being n or the number of columns in the matrix.
 
-    gfortran -o smaceps smaceps.f
-
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
-
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
-
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+**Output:** The return is a python list object, with lists as elements.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+This program takes two integer entries representing the m * n matrix, in the case below, 5 * 3. The following test code stores the output of randMat, and then prints row by row.
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
+      mat = randMat(5, 3)
+      
+      for i in range(len(mat)):
+        print(mat[i])
 
 Output from the lines above:
 
-      24   5.96046448E-08
+      [0.4938284270187818, 0.10448299040645204, 0.4420265505920872]
+      [0.7863414356559334, 0.7378855988792082, 0.8705942473156126]
+      [0.52600107842278, 0.4423276246551957, 0.5885647467926489]
+      [0.4780078559236475, 0.8675458914501607, 0.317085150320899]
+      [0.32392693889319746, 0.1861545569256703, 0.553129086642555]
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
 
 **Implementation/Code:** The following is the code for smaceps()
 
-      subroutine smaceps(seps, ipow)
+      import random
+      
+      
+      def randMat(m, n):
+        return [[random.random() for i in range(n)] for j in range(m)]
+      
+
+
