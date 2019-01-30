@@ -2,7 +2,7 @@
 
 - [maceps](maceps.md)
 - [smaceps](smaceps.md)
-- [Task 3](#task-3)
+- [randMat](randMat.md)
 - [Task 4](#task-4)
 - [Task 5](#task-5)
 - [Task 6](#task-6)
