@@ -23,13 +23,13 @@ value and the second is an integer.
 
       x1 = smaceps()
       
-      print("Double float mantissa: " + str(x1[0]))
-      print("Double float precision: " + str(x1[1]))
+      print("Single float mantissa: " + str(x1[0]))
+      print("Single float precision: " + str(x1[1]))
 
 Output from the lines above:
 
-      Double float mantissa: 24
-      Double float precision: 5.9604645e-08
+      Single float mantissa: 24
+      Single float precision: 5.9604645e-08
 
 The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
 decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
