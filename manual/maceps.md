@@ -1,4 +1,4 @@
-# Single Precision Calculator
+# Double Precision Calculator
 
 **Routine Name:**           maceps
 
