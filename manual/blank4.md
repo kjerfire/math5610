@@ -1,50 +1,33 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual Template File
-This is a template file for building an entry in the student software manual project. You should use the formatting below to
-define an entry in your software manual.
+# Absolute Error
 
-**Routine Name:**           smaceps
+**Routine Name:**           absError
 
-**Author:** Joe Koebbe
+**Author:** Nathanael Barney
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+**Language:** Python 3.7.
 
-For example,
 
-    gfortran smaceps.f
+**Description/Purpose:** This program calculates the positive distance between two numbers, providing an error value of a number, and its estimate.
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+**Input:** The program accepts two parameters, an origional value, and the estimate.
 
-    gfortran -o smaceps smaceps.f
-
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
-
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
-
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+**Output:** The program returns a single positive number.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The example below shows the program calculating the error of the estimate 13 from the value 13.00041.
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
+      print(absError(13.00041, 13))
 
 Output from the lines above:
 
-      24   5.96046448E-08
+      0.000410000000001247
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
+
 
 **Implementation/Code:** The following is the code for smaceps()
 
-      subroutine smaceps(seps, ipow)
+      def absError(num1, num2):
+        error = abs(num1-num2)
+        return error
+
