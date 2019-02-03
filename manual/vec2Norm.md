@@ -14,7 +14,7 @@
 
 **Usage/Example:**
 
-An example of usage of the vecAdd function:
+An example of usage of the vec2Norm function:
 
       print(vec2Norm([6, 8, 12]))
 
@@ -24,7 +24,7 @@ Output from the lines above:
 
 The returned number is the 2 norm of the [6, 8, 12] vector.
 
-**Implementation/Code:** The following is the code for vec1Norm
+**Implementation/Code:** The following is the code for vec2Norm
 
       def vec2Norm(vec):
         norm = 0
