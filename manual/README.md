@@ -3,6 +3,7 @@
 - [maceps](maceps.md)
 - [smaceps](smaceps.md)
 - [randMat](randMat.md)
+- [symmMat](symmMat.md)
 - [absError](absError.md)
 - [relError](relError.md)
 - [vecAdd](vecAdd.md)
