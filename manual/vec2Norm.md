@@ -24,7 +24,7 @@ Output from the lines above:
 
 The returned number is the 2 norm of the [6, 8, 12] vector.
 
-**Implementation/Code:** The following is the code for vecAdd
+**Implementation/Code:** The following is the code for vec1Norm
 
       def vec2Norm(vec):
         norm = 0
