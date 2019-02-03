@@ -25,7 +25,7 @@ Output from the lines above:
 
 The returned list is the multiplication of each element, by 5.
 
-**Implementation/Code:** The following is the code for vecAdd
+**Implementation/Code:** The following is the code for vecScale
 
       def vecScale(vec, scale):
         for i in range(len(vec)):
