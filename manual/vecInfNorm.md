@@ -35,4 +35,4 @@ The returned number is the 2 norm of the [6, 8, 12] vector.
         return norm
 
 
-[Back to Manual](manual)
+[Back to Manual](manual/README.md)
