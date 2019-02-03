@@ -5,4 +5,3 @@ def vec2Norm(vec):
     return norm ** .5
 
 
-print(vec2Norm([6, 8, 12]))

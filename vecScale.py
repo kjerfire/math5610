@@ -4,5 +4,4 @@ def vecScale(vec, scale):
     return vec
 
 
-print(vecScale([1, 2, 3, 4], 5))
 

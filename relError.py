@@ -3,5 +3,5 @@ def relError(num1, num2):
     return error
 
 
-print(relError(.000000008, .00000001))
+
 

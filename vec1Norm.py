@@ -4,5 +4,3 @@ def vec1Norm(vec):
         norm += abs((vec[i] ** 1))
     return norm ** 1
 
-
-print(vec1Norm([6, 8, 12]))
