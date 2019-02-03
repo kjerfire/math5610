@@ -14,7 +14,7 @@
 
 **Usage/Example:**
 
-An example of usage of the vecAdd function:
+An example of usage of the vec1Norm function:
 
       print(vec1Norm([6, 8, 12]))
 
