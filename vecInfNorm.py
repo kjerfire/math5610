@@ -6,5 +6,3 @@ def vecInfNorm(vec):
             norm = abs(vec[i])
     return norm
 
-
-print(vecInfNorm([6, 8, 12]))
