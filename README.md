@@ -8,6 +8,7 @@
 
 [Homework 2](H2.md)
 
+[Homework 3](H3.md)
 
 
 
