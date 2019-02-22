@@ -8,5 +8,4 @@ def mat1Norm(mat):
     return max(tempList)
 
 
-print(mat1Norm([[1, 1, 20], [1, -10, 50], [5, 10, 15]]))
 
