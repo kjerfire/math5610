@@ -16,14 +16,14 @@
 
 An example of usage of the vecInfNorm function:
 
-      list1 = [1, 2, 3, 4]
+      list1 = [1.75, 1.9, 2.9, 4.2]
       list2 = [2, 2, 3, 4]
       print(vec1NormError(list1, list2))
 
 
 Output from the lines above:
 
-      1
+      0.6500000000000004
 
 The returned number is the absolute error in terms of the vector 1-norm.
 
