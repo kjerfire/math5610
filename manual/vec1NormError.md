@@ -8,7 +8,7 @@
 
 **Description/Purpose:** This program calculates the absolute error of a vector approximation when the 1-norm is used. 
 
-**Input:** Two numeric vectors.
+**Input:** Two numeric vectors, the exact vector and the approximate vector.
 
 **Output:** The program returns a single number, the absolute error.
 
