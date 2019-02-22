@@ -27,7 +27,7 @@ Output from the lines above:
 
 **Implementation/Code:** The following is the code for relError
 
-      def absError(num1, num2):
-        error = abs(num1-num2)
-        return error
+      def relError(num1, num2):
+            error = abs((num1-num2)/num1)
+            return error
 
