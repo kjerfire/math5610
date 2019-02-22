@@ -13,8 +13,3 @@ def maceps():
     return [ipow, seps]
 
 
-x1 = maceps()
-
-print("Double float mantissa: " + str(x1[0]))
-print("Double float precision: " + str(x1[1]))
-
