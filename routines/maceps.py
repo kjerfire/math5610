@@ -12,4 +12,3 @@ def maceps():
 
     return [ipow, seps]
 
-

@@ -9,10 +9,3 @@ def vec1NormError(actual, approx):
     for i in range(len(vec)):
         sum += vec[i]
     return sum
-
-
-list1 = [1, 2, 3, 4]
-
-print(vec1NormError(list1, [2, 2, 3, 4]))
-
-print(list1)

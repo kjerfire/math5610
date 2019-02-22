@@ -7,5 +7,3 @@ def matInfNorm(mat):
         tempList.append(temp)
     return max(tempList)
 
-
-print(matInfNorm([[1, 1, 20], [1, -10, 50], [5, 10, 15]]))

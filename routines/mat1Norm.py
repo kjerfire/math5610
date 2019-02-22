@@ -8,4 +8,3 @@ def mat1Norm(mat):
     return max(tempList)
 
 
-

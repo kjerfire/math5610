@@ -11,9 +11,3 @@ def vec2NormError(actual, approx):
     return sum ** .5
 
 
-list1 = [1, 2, 3, 4]
-
-print(vec2NormError(list1, [2, 2, 3, 4]))
-
-print(list1)
-
