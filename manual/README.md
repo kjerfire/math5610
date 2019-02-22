@@ -10,7 +10,7 @@
 - [vecScale](vecScale.md)
 - [vec1Norm](vec1Norm.md)
 - [vec2Norm](vec2Norm.md)
-- [vecInfNorm](vecInfNorm)
+- [vecInfNorm](vecInfNorm.md)
 
 
 [Return to Home](https://kjerfire.github.io/math5610/)
