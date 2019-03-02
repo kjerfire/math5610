@@ -23,7 +23,9 @@ print(matInfNorm([[5, 5, 10], [1, 1, 1], [9, 8, 7]]))
 
 Output from the lines above:
 
-``` 24 ```
+```
+ 24 
+```
 
 **Implementation/Code:** The following is the code for vecInfNorm
 
