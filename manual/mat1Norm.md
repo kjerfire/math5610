@@ -23,7 +23,9 @@ print(mat1Norm([[5, 5, 10], [1, 1, 1], [9, 8, 7]]))
 
 Output from the lines above:
 
-``` 18 ```
+```
+18 
+```
 
 **Implementation/Code:** The following is the code for vec1Norm
 
