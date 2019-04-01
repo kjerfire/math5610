@@ -38,7 +38,7 @@ Output from the lines above:
 This matrix is the  product of the 3 length, and 2 length vectors. Note that with the outer product, if the input vectors 
 were switched, the dimensions of the output matrix would also be switched
 
-**Implementation/Code:** The following is the code for matMult:
+**Implementation/Code:** The following is the code for vecOutProd:
 
 ```
 def vecOutProd(vector1, vector2):
