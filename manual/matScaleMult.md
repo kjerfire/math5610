@@ -34,16 +34,13 @@ Output from the lines above:
 
 This matrix is the product of the 2 by 2 matrix and the scalar number 5.
 
-**Implementation/Code:** The following is the code for matMult:
+**Implementation/Code:** The following is the code for matScaleMult:
 
 ```
-def matMult(mat1, mat2):
-    matTemp = [[0.0 for j in range(len(mat2[0]))] for i in range(len(mat1))]
-    for i in range(len(matTemp)):
-        for j in range(len(matTemp[0])):
-            temp = 0.0
-            for k in range(len(mat1[0])):
-                temp += mat1[i][k] * mat2[k][j]
-            matTemp[i][j] = temp
-    return matTemp
+def matScaleMult(matrix, multiplier):
+    A = [[0 for i in range(len(matrix))] for j in range(len(matrix))]
+    for i in range(len(matrix)):
+        for j in range(len(matrix[0])):
+            A[i][j] = multiplier * matrix[i][j]
+    return A
 ```
