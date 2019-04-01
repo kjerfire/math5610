@@ -34,7 +34,7 @@ Output from the lines above:
 
 This matrix is the  sum of the 2 by 2 matrices.
 
-**Implementation/Code:** The following is the code for matMult:
+**Implementation/Code:** The following is the code for matSum:
 
 ```
 def matSum(matrix1, matrix2):
