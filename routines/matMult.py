@@ -9,3 +9,7 @@ def matMult(mat1, mat2):
     return matTemp
 
 
+# mat1 = matMult([[1, 2], [2, 1], [1, 2]], [[1, 2, 3], [3, 2, 1]])
+#
+# for i in range(len(mat1)):
+#     print(mat1[i])
