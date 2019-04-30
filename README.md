@@ -12,5 +12,13 @@
 
 [Homework 4](H4.md)
 
+[Homework 5](H5.md)
+
+[Homework 6](H6.md)
+
+[Homework 7](H7.md)
+
+[Homework 8](H8.md)
+
 
 
