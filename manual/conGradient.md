@@ -35,7 +35,7 @@ Output from the lines above:
 
 The above is the solution vector to the sample problem.
 
-**Implementation/Code:** The following is the code for matDiagSolve:
+**Implementation/Code:** The following is the code for conGradient:
 
 ```
 from matMult import matMult
