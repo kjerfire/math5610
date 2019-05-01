@@ -6,7 +6,7 @@
 
 **Language:** Python 3.7.
 
-**Description/Purpose:** Description
+**Description/Purpose:** This routine calculates a least squares solution by way of the basic QR factorization.
 
 **Input:** 
 * Arguement 1: matrix A
