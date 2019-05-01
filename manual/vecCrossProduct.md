@@ -1,13 +1,13 @@
-# Vector Dot Product Calculator
+# Vector Cross Product Calculator
 
-**Routine Name:**           vecDotProduct
+**Routine Name:**           vecCrossProduct
 
 **Author:** Nathanael Barney
 
 **Language:** Python 3.7.
 
-**Description/Purpose:** This routine will compute the cross product of two vectors, that being matrix that 
-results from vector multiplication.
+**Description/Purpose:** This routine will compute the cross product of two vectors, returning the vector that 
+results from such an operation.
 
 **Input:** 
 * Arguement 1: vector 1
@@ -18,34 +18,29 @@ in vector 1, and n is the number of entries in vector 2.
 
 **Usage/Example:**
 
-The routine returns the single dot product value. Following is an example of the code:
+The routine returns the cross product vector. Following is an example of the code:
 
 ```
- print(vecCrossProduct([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]))
- 
-for i in range(len(mat)):
-    print(mat[i])
+vec = vecCrossProduct([1, 2, 3], [-1, 7, 26])
+
+print(vec)
  ```
 
 Output from the lines above:
 
 ```
-[1, 2, 3, 4, 5]
-[2, 4, 6, 8, 10]
-[3, 6, 9, 12, 15]
-[4, 8, 12, 16, 20]
-[5, 10, 15, 20, 25]
+[46, -6, 5]
 ```
 
-This value is the cross product of the vectors [1, 2, 3, 4, 5], and [1, 2, 3, 4, 5].
+This value is the cross product of the vectors [1, 2, 3], and [-1, 7, 26].
 
 **Implementation/Code:** The following is the code for vecCrossProduct
 
 ```
 def vecCrossProduct(vec1, vec2):
-    crossMatrix = [[] for i in range(len(vec1))]
-    for i in range(len(vec1)):
-        for j in range(len(vec2)):
-            crossMatrix[i].append(vec1[i] * vec2[j])
-    return crossMatrix
+    crossProd = [[] for i in range(3)]
+    crossProd[0] = vec1[1] * vec2[2] - vec1[2] * vec1[1]
+    crossProd[1] = vec1[2] * vec2[0] - vec1[0] * vec1[2]
+    crossProd[2] = vec1[0] * vec2[1] - vec1[1] * vec1[0]
+    return crossProd
 ```
