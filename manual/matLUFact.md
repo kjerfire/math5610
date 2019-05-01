@@ -9,10 +9,10 @@
 **Description/Purpose:** Description
 
 **Input:** 
-* Arguement 1: diagonal matrix
-* Arguement 2: b vector
+* Arguement 1: matrix
 
-**Output:** This routine returns a vector of length n where n is the dimension of the square diagolnal input matrix.
+
+**Output:** This routine returns two matrices which constitute the LU decomposition of the original matrix.
 
 **Usage/Example:**
 
