@@ -1,4 +1,4 @@
-# Random Matrix Generator
+# Random Diagonally Dominant Matrix Generator
 
 **Routine Name:**           diagDomMat
 
