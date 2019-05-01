@@ -10,3 +10,9 @@ def symmPosDefMat(n):
     for i in range(n):
         blank[i][i] = n
     return blank
+
+#
+# mat = symmPosDefMat(4)
+# for i in range(len(mat)):
+#     print(mat[i])
+#

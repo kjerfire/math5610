@@ -9,6 +9,7 @@ def matQRSolve(mat, b):
     soln = matUpTriSolve(QR[1], solY)
     return soln
 
-# print(matQRSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
+
+print(matQRSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
 
 #  HW6 task 1

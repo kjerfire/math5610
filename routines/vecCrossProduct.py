@@ -1,12 +1,12 @@
 def vecCrossProduct(vec1, vec2):
-    crossMatrix = [[] for i in range(len(vec1))]
-    for i in range(len(vec1)):
-        for j in range(len(vec2)):
-            crossMatrix[i].append(vec1[i] * vec2[j])
-    return crossMatrix
+    crossProd = [[] for i in range(3)]
+    crossProd[0] = vec1[1] * vec2[2] - vec1[2] * vec1[1]
+    crossProd[1] = vec1[2] * vec2[0] - vec1[0] * vec1[2]
+    crossProd[2] = vec1[0] * vec2[1] - vec1[1] * vec1[0]
+    return crossProd
 
 
-# mat = vecCrossProduct([1, 2, 3, 4, 5], [1, 2, 3, 4, 5])
+# mat = vecCrossProduct([1, 2, 3], [-1, 7, 26])
 #
 # for i in range(len(mat)):
 #     print(mat[i])

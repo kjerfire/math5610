@@ -4,13 +4,9 @@ from matUpTriSolve import *
 def matGE(matrix, b):
     for i in range(len(matrix)):
         matrix[i].append(b[i][0])
-    # print(matrix)
     temp = matRowEchForm(matrix)
     for i in range(len(temp)):
         b[i][0] = temp[i].pop()
-    # print(matrix)
-    # print(temp)
-    # print(b)
     soln = matUpTriSolve(temp, b)
     return soln
 

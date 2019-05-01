@@ -28,7 +28,7 @@ def gaussSeidel(A, b, x0, tol, maxiter, ct=False):
         return x2
 
 
-# print(gaussSeidel([[5, 1, 2], [1, 4, 1], [2, 2, 5]], [[1], [2], [3]], [[1], [2], [3]], .000001, 50))
+# print(gaussSeidel([[5, 1, 2], [1, 4, 1], [2, 1, 5]], [[1], [2], [3]], [[1], [2], [3]], .000001, 50))
 
 
 # HW 6 task 7

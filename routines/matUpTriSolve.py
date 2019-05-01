@@ -5,14 +5,12 @@ def matUpTriSolve(matrix, b):
             b[i][0] = b[i][0] - matrix[i][j] * xSoln[j]
         xSoln[i] = b[i][0] / matrix[i][i]
     soln = [[0] for i in range(len(xSoln))]
-    # print(soln)
-    # print(xSoln)
     for i in range(len(soln)):
         soln[i][0] = xSoln[i]
     return soln
 
 
 # # TEST
-# print(matUpTriSolve([[1, 5, 5, 6, 4], [0, 3, 4, 2, 3], [0, 0, 2, 3, 1], [0, 0, 0, 9, 4], [0, 0, 0, 0, -2]],
-#                     [[1], [2], [3], [4], [5]]))
+print(matUpTriSolve([[1, 5, 5, 6, 4], [0, 3, 4, 2, 3], [0, 0, 2, 3, 1], [0, 0, 0, 9, 4], [0, 0, 0, 0, -2]],
+                    [[1], [2], [3], [4], [5]]))
 

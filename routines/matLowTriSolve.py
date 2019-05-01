@@ -5,8 +5,6 @@ def matLowTriSolve(matrix, b):
             b[i][0] = b[i][0] - matrix[i][j] * xSoln[j]
         xSoln[i] = b[i][0] / matrix[i][i]
     soln = [[0] for i in range(len(xSoln))]
-    # print(soln)
-    # print(xSoln)
     for i in range(len(soln)):
         soln[i][0] = xSoln[i]
     return soln

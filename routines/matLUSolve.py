@@ -9,6 +9,6 @@ def matLUSolve(mat, b):
     return soln
 
 
-print(matLUSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
+# print(matLUSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
 
 # HW 5 task 3

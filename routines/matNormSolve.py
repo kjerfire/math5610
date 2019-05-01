@@ -10,5 +10,5 @@ def matNormSolve(A, b):
     return x
 
 
-# print(matNormSolve([[2, -1], [1, 2], [1, 1]], [[2], [1], [4]]))
+print(matNormSolve([[2, -1], [1, 2], [1, 1]], [[2], [1], [4]]))
 # HW 5 task 1

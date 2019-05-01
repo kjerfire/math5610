@@ -8,11 +8,9 @@ from matMult import matMult
 
 def matModGSQRFact(mat):
     uVec = matTrans(mat)
-    # print(uVec)
     for i in range(len(mat[0])):
         for j in range(i):
             uVec[i] = vecAdd(uVec[i], vecScale(uVec[j], -1 * vecDotProduct(uVec[i], uVec[j])))
-        # print(uVec)
         uVec[i] = vecScale(uVec[i], 1 / vec2Norm(uVec[i]))
 
     Q = [[uVec[i][j] for i in range(len(uVec))] for j in range(len(uVec[0]))]
