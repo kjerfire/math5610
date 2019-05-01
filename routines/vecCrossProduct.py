@@ -6,7 +6,6 @@ def vecCrossProduct(vec1, vec2):
     return crossProd
 
 
-# mat = vecCrossProduct([1, 2, 3], [-1, 7, 26])
+# vec = vecCrossProduct([1, 2, 3], [-1, 7, 26])
 #
-# for i in range(len(mat)):
-#     print(mat[i])
+# print(vec)

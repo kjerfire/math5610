@@ -8,7 +8,7 @@ def vecInfNormError(actual, approx):
     return max(vec)
 
 
-list1 = [1.75, 1.9, 2.9, 4.2]
-list2 = [2, 2, 3, 4]
-print(vecInfNormError(list1, list2))
-
+# list1 = [1.75, 1.9, 2.9, 4.2]
+# list2 = [2, 2, 3, 4]
+# print(vecInfNormError(list1, list2))
+#

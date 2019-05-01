@@ -12,7 +12,7 @@ def jacobiVsGE():
         print("A matrix of size " + str(i) + " by " + str(i) + " takes Jacobi's method " + str(time.time() - time0) +
               " seconds to converge after " + str(count) + " iterations.")
         time1 = time.time()
-        x = matGE(mat, vec, True)
+        x = matGE(mat, vec)
         print("A matrix of size " + str(i) + " by " + str(i) + " takes the Gaussian Elimination method " +
               str(time.time() - time1) + " seconds to solve.")
 

@@ -6,4 +6,4 @@ def matDiagSolve(matrix, b):
 
 
 # # TEST
-print(matDiagSolve([[5, 0, 0], [0, 10, 0], [0, 0, 125]], [[1], [2], [25]]))
+# print(matDiagSolve([[5, 0, 0], [0, 10, 0], [0, 0, 125]], [[1], [2], [25]]))

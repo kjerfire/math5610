@@ -14,4 +14,4 @@ def matRowEchForm(matrix):
 
 
 # TEST
-print(matRowEchForm([[1, 3, 5, 2], [2, 7, 3, 3], [4, 9, 8, 1]]))
+# print(matRowEchForm([[1, 3, 5, 2], [2, 7, 3, 3], [4, 9, 8, 1]]))

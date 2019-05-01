@@ -25,7 +25,8 @@ def matQRFact(mat):
 # print(matQRFact([[1, 2, 4], [0, 0, 5], [0, 3, 6]])[0])
 # print()
 # print(matQRFact([[1, 2, 4], [0, 0, 5], [0, 3, 6]])[1])
-
+#
+#
 
 
 # HW5 task 7

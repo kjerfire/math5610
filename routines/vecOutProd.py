@@ -6,8 +6,8 @@ def vecOutProd(vector1, vector2):
     return A
 
 
-# TEST
-mat1 = vecOutProd([1, 2, 3], [2, 3])
-
-for i in range(len(mat1)):
-    print(mat1[i])
+# # TEST
+# mat1 = vecOutProd([1, 2, 3], [2, 3])
+#
+# for i in range(len(mat1)):
+#     print(mat1[i])

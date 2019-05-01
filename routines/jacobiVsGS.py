@@ -17,7 +17,4 @@ def jacobiVsGS():
               str(time.time() - time1) + " seconds to converge after " + str(count) + " iterations.")
 
 
-
-
-
-# methodCompare()
+jacobiVsGS()

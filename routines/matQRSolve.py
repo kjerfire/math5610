@@ -10,6 +10,6 @@ def matQRSolve(mat, b):
     return soln
 
 
-print(matQRSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
+# print(matQRSolve([[1, 1, -1], [1, -2, 3], [2, 3, 1]], [[4], [-6], [7]]))
 
 #  HW6 task 1

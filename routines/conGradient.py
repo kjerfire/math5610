@@ -30,4 +30,4 @@ def conGradient(A, b, x0, tol, maxiter, ct=False):
         return x
 
 
-print(conGradient([[5, 1, 2], [1, 4, 1], [2, 1, 5]], [[1], [2], [3]], [[1], [2], [3]], .000001, 10000))
+# print(conGradient([[5, 1, 2], [1, 4, 1], [2, 1, 5]], [[1], [2], [3]], [[1], [2], [3]], .000001, 10000))

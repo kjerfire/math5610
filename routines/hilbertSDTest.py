@@ -1,6 +1,6 @@
-from conGradient import conGradient
 from steepestDesc import steepestDesc
 import time
+
 
 def hilbertSDTest():
     for k in [4, 8, 16, 32]:
