@@ -1,4 +1,4 @@
-# Random Symmetric Matrix Generator
+# Random Symmetric Positive Definite Matrix Generator
 
 **Routine Name:**           symmPosDefMat
 
@@ -16,7 +16,7 @@ dimensions input by a user.
 
 **Usage/Example:**
 
-Below is an example of a printed instance of the symmPosDefMat routine with:
+Below is an example of a printed instance of the symmPosDefMat routine:
 
 ```
 mat = symmPosDefMat(4)
